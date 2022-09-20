@@ -1,0 +1,96 @@
+﻿li {
+    color: blue;
+}
+
+body {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("/images/menu_background.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: Arial;
+    margin: 0px;
+    color: white;
+}
+
+    body.homePage {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("/images/main_background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+#small_logo {
+    margin-left: 35px;
+    margin-top: 25px;
+}
+
+h1 {
+    background-color : #DD7835;
+    color: white;
+    display: inline;
+    padding: 8px 22px;
+}
+
+.menu_title {
+    margin-top: 45px;
+    margin-bottom: 55px;
+
+}
+
+.menu_list {
+    margin-left: 50px;
+}
+
+.menu_list_item {
+    font-size: 20px;
+    margin: 30px 0px;
+}
+
+.menu_list_title {
+    font-weight: bold;
+    text-transform: uppercase; 
+}
+
+.menu_list_price {
+    color: #DD7835;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.menu_list_ingredient {
+    font-size: 14px;
+    color: #C8C8C8;
+    display: block;
+    width: 320px;
+}
+
+.menu_list_vege {
+    color: black;
+    font-weight: bold;
+    display: inline;
+    font-size: 9px;
+    background-color: #DD7835;
+    border-radius: 8px;
+    padding: 3px 8px;
+}
+
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+a.homePage {
+    color: red;
+    font-size: 18px;
+    display: block;
+    margin-top: 30px;
+    text-align: center;
+}
